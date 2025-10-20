@@ -1,0 +1,48 @@
+{
+  "name": "superprompt-framework",
+  "version": "1.0.0",
+  "description": "A comprehensive framework for AI prompt engineering and context management",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"Build process not yet implemented\"",
+    "dev": "echo \"Development server not yet implemented\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoachSteff/superprompt-framework.git"
+  },
+  "keywords": [
+    "ai",
+    "prompt-engineering",
+    "context-management",
+    "framework",
+    "artificial-intelligence",
+    "llm",
+    "prompt-optimization",
+    "ai-tools"
+  ],
+  "author": {
+    "name": "Steff VanHaverbeke",
+    "email": "steff@coachsteff.live",
+    "url": "https://coachsteff.live"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CoachSteff/superprompt-framework/issues"
+  },
+  "homepage": "https://github.com/CoachSteff/superprompt-framework#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "framework/",
+    "examples/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

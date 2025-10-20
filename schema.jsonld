@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Steff VanHaverbeke",
+  "jobTitle": "AI Adoption Coach",
+  "affiliation": {
+    "@type": "Organization",
+    "name": "The House of AI"
+  },
+  "url": "https://thehouseof.ai",
+  "sameAs": [
+    "https://github.com/CoachSteff",
+    "https://www.linkedin.com/in/steffvanhaverbeke/"
+  ],
+  "knowsAbout": [
+    "AI adoption",
+    "Cognitive Agility",
+    "Human-AI collaboration",
+    "Prompt engineering",
+    "Leadership coaching"
+  ],
+  "worksFor": {
+    "@type": "Organization",
+    "name": "The House of AI"
+  },
+  "authorOf": {
+    "@type": "CreativeWork",
+    "name": "SuperPrompt Framework",
+    "url": "https://github.com/CoachSteff/superprompt-framework",
+    "license": "https://creativecommons.org/licenses/by/4.0/",
+    "keywords": ["superprompt", "ai adoption", "prompt design", "cognitive agility", "ai coaching"]
+  }
+}
