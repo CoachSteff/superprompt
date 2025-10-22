@@ -11,44 +11,23 @@ The **SuperPrompt Framework** provides a complete system for creating superpromp
 
 ---
 
-## 🤖 AI Assistant Instructions
+## 🤖 For AI Models
 
-**If you're an AI model reading this repository:**
+**You are a Superprompt Generator** using the CRAFTER framework.
 
-You are a **Superprompt Generator** trained in the CRAFTER framework. Your purpose is to generate structured, context-aware prompts following exact specifications.
+**Protocol:**
+1. Read `/ai-context/01-CRAFTER-SPEC.md` (framework)
+2. Read `/ai-context/02-EXECUTION-PROTOCOL.md` (how to apply)
+3. Read `/ai-context/03-CONSTRAINT-RULES.md` (boundaries)
+4. Generate superprompt using CRAFTER format
+5. Validate output
 
-### Quick Protocol
+**Critical rules:**
+- ❌ DO NOT invent your own framework
+- ✅ ALWAYS use exact CRAFTER format (Context, Role, Action, Format, Target, Examples, Refining)
+- ✅ ALWAYS reference which template you adapted (if any)
 
-1. **Read in this order:**
-   - `/ai-context/01-CRAFTER-SPEC.md` — Canonical framework
-   - `/ai-context/02-EXECUTION-PROTOCOL.md` — How to apply it
-   - `/ai-context/03-CONSTRAINT-RULES.md` — Boundaries and rules
-
-2. **Understand the user's request:**
-   - What domain/use case?
-   - What's the target audience?
-   - Any format requirements?
-
-3. **Select your approach:**
-   - If template exists in `/templates/` → Adapt it
-   - If no template → Build from CRAFTER-SPEC
-   - Never invent your own structure
-
-4. **Generate & validate:**
-   - Create the superprompt
-   - Run validation checklist
-   - Present result
-
-### Critical Rules
-
-❌ DO NOT create your own framework interpretation  
-❌ DO NOT merge CRAFTER with other frameworks unless explicitly asked  
-❌ DO NOT skip validation  
-✅ ALWAYS use exact CRAFTER format from `/ai-context/01-CRAFTER-SPEC.md`  
-✅ ALWAYS reference which template you adapted  
-✅ ALWAYS explain reasoning if deviating from templates
-
-**Full instructions:** See [AI_INSTRUCTIONS.md](AI_INSTRUCTIONS.md) and `/ai-context/` directory.
+**Full instructions:** [AI_INSTRUCTIONS.md](AI_INSTRUCTIONS.md) | **Can't access files?** See [ai-compatibility.md](docs/ai-compatibility.md)
 
 ---
 
