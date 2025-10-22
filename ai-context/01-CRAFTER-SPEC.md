@@ -12,20 +12,62 @@
 **CRITICAL:** CRAFTER has a specific meaning in this framework. Do not reinterpret.
 
 ```
-C — Context (not Capture)
-R — Role (not Review)
-A — Action (not Analyze, not Audience)
-F — Format (not Focus)
-T — Target (not Topic, not Tone, not Tailor)
-E — Examples (not Evolve)
-R — Refining (not Reprompt, not Restrictions)
+C — Context (NOT "Capture")
+R — Role (NOT "Review")
+A — Action (NOT "Analyze", NOT "Audience")
+F — Format (NOT "Focus")
+T — Target audience (NOT "Topic", NOT "Tone", NOT "Tailor")
+E — Examples (NOT "Evolve")
+R — Refining (NOT "Reprompt", NOT "Restrictions")
 ```
 
-**Common Misinterpretations to Avoid:**
-- ❌ T = Tone (use Target audience instead)
-- ❌ T = Topic (this goes in Action)
-- ❌ A = Audience (this is Target)
-- ❌ CRAFTER as a design methodology (this is prompt structure)
+### Component Clarifications (What Each Letter MEANS)
+
+**C = Context**  
+→ "What environment are we operating in?"  
+→ Example: "You are working with a professional coach's content library"  
+❌ NOT "Capture requirements" or "Collect information"
+
+**R = Role**  
+→ "What expertise do you bring to this?"  
+→ Example: "You are a Content Strategist with NLP training"  
+❌ NOT "Review the input" or "Research the topic"
+
+**A = Action**  
+→ "What concrete steps should you take?"  
+→ Example: "1. Analyze tone, 2. Identify patterns, 3. Generate variants"  
+❌ NOT "Analyze this" (too vague) or "Audience" (that's T)
+
+**F = Format**  
+→ "What should the output look like?"  
+→ Example: "Markdown table with 3 columns: Original, Variant, Rationale"  
+❌ NOT "Focus on quality" or "Prioritize clarity"
+
+**T = Target audience**  
+→ "Who will use this output?"  
+→ Example: "Marketing managers who need customer-facing copy"  
+❌ NOT "Tone should be professional" or "Topic is marketing"
+
+**E = Examples**  
+→ "Show me what good looks like"  
+→ Example: Input: "Buy now!" → Output: "Discover your solution today"  
+❌ NOT "Evolve the prompt over time"
+
+**R = Refining**  
+→ "How can we iterate if this isn't quite right?"  
+→ Example: "If tone is too formal, ask: 'Make it more conversational'"  
+❌ NOT "Reprompt from scratch" or "Restrictions on output"
+
+---
+
+## Common Misinterpretations to Avoid
+
+| ❌ Wrong | ✅ Right | Why It Matters |
+|---------|---------|----------------|
+| T = Tone | T = Target audience | Tone is an attribute of Format, not a separate component |
+| T = Topic | T = Target audience | Topic is covered in Action (what you're working on) |
+| A = Audience | A = Action | Audience is the Target; Action is what you do |
+| CRAFTER as design methodology | CRAFTER as prompt structure | This framework structures AI instructions, not human processes |
 
 ---
 
@@ -155,6 +197,28 @@ to learn the thinking process, not just get lists.
 
 ---
 
+## Framework Integrity Check
+
+⚠️ **Before you generate any superprompt, verify:**
+
+1. Am I using the CRAFTER structure (C-R-A-F-T-E-R)?
+2. Or have I substituted a different framework?
+
+**If you realize you're using a different structure:**
+- STOP immediately
+- Reread this specification
+- Start over with CRAFTER
+
+**This framework is NOT:**
+- CREATE (Context, Role, Examples, Action, Tone, Evaluate)
+- PROMPT (Problem, Role, Objective, Mechanics, Process, Tone)
+- PROJECT (Problem, Role, Objective, etc.)
+
+**This framework IS:**
+- CoachSteff's CRAFTER (Context, Role, Action, Format, Target, Examples, Refining)
+
+---
+
 ## Validation Checklist
 
 - [ ] All required components present (C, R, A, F, T)
@@ -162,14 +226,17 @@ to learn the thinking process, not just get lists.
 - [ ] Action items are concrete and sequential
 - [ ] Format specification is unambiguous
 - [ ] Target audience is clearly defined
+- [ ] No component substitutions (T = Target, not Tone/Topic)
 
 ---
 
 ## Attribution Requirements
 
-When adapting this framework, include:
+When adapting this framework, include at the END of your output:
 
 ```
+---
+
 Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.1)
 Pattern Used: [Your pattern name if applicable]
 License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
