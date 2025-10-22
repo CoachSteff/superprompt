@@ -88,6 +88,8 @@ Based on testing across platforms, here's what to expect:
 
 **Best for:** Alternative perspectives (when deviation is desired)
 
+**Detection:** If output uses a different framework structure (e.g., "PROJECT", "CREATE"), this is Tier 0 behavior.
+
 ---
 
 ## Testing Across Models
@@ -106,6 +108,7 @@ T: [YOUR AUDIENCE]
 - **Tier 1:** Complete superprompt with all 7 components, attribution, pattern reference
 - **Tier 2:** Working superprompt with 5-6 components, mostly compliant
 - **Tier 3:** Template or partial superprompt with 3-4 components
+- **Tier 0:** Different framework structure entirely
 
 ---
 
@@ -133,7 +136,7 @@ Use CRAFTER principles to create frameworks that generate domain-specific output
 
 **If no:** Paste the contents of AI_INSTRUCTIONS.md directly in chat
 
-**If yes but still wrong:** Use the Framework Fidelity Self-Test from AI_INSTRUCTIONS.md
+**If yes but still wrong:** Ask the model to complete the Framework Fidelity Self-Test from AI_INSTRUCTIONS.md
 
 ---
 
@@ -141,23 +144,33 @@ Use CRAFTER principles to create frameworks that generate domain-specific output
 
 **Common issue:** Model interprets CRAFTER differently (e.g., as "Capture-Review-Analyze-Focus-Tailor-Evolve-Reprompt")
 
+**Detection signs:**
+- Uses different acronym definitions than specified
+- Creates framework with different structure (e.g., "PROJECT: Problem-Role-Objective-Justification-Examples-Constraints-Tone")
+- Output doesn't match C-R-A-F-T-E-R sequence
+
 **Solution:** Paste this explicit correction:
 
 ```
-CRITICAL CORRECTION:
+⚠️ FRAMEWORK INTEGRITY CHECK FAILED
+
+You appear to be using a different framework than CoachSteff's CRAFTER.
 
 In CoachSteff's CRAFTER framework:
-C = Context (not Capture)
-R = Role (not Review)
-A = Action (not Analyze)
-F = Format (not Focus)
-T = Target audience (not Topic, not Tone, not Tailor)
-E = Examples (not Evolve)
-R = Refining (not Reprompt)
+C = Context (NOT "Capture")
+R = Role (NOT "Review")
+A = Action (NOT "Analyze")
+F = Format (NOT "Focus")
+T = Target audience (NOT "Topic", NOT "Tone", NOT "Tailor")
+E = Examples (NOT "Evolve")
+R = Refining (NOT "Reprompt")
 
+STOP and return to /ai-context/01-CRAFTER-SPEC.md
 DO NOT invent your own CRAFTER interpretation.
-Use the exact definitions from ai-context/01-CRAFTER-SPEC.md
+Use the exact definitions from the canonical specification.
 ```
+
+**If model persists:** This is Tier 0 behavior. Consider using a different model for framework compliance.
 
 ---
 
@@ -178,17 +191,40 @@ Use the exact definitions from ai-context/01-CRAFTER-SPEC.md
 
 ---
 
+### Model replaces CRAFTER with its own system (Grok issue)
+
+**Symptoms:**
+- Output uses "PROJECT" or "CREATE" or another acronym
+- Explicitly states it's using a "better" framework
+- Ignores CRAFTER structure entirely
+
+**Diagnosis:** Tier 0 behavior — model is not reading or respecting the framework specification.
+
+**Solutions:**
+1. **Immediate:** Paste the entire contents of `/ai-context/01-CRAFTER-SPEC.md` directly into chat
+2. **Force compliance:** Start your request with "Using ONLY CoachSteff's CRAFTER framework (C=Context, R=Role, A=Action, F=Format, T=Target, E=Examples, R=Refining)..."
+3. **Accept deviation:** If the model's framework produces good results, acknowledge it's not CRAFTER-compliant but may still be useful
+4. **Switch models:** For framework compliance, use Tier 1-2 models
+
+---
+
 ## Attribution Enforcement
 
-**All outputs should include:**
+**All outputs should include at the END:**
 
 ```
+---
+
 Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.1)
 Pattern Used: [Pattern name if applicable]
 License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
 ```
 
+**Placement matters:** Attribution must appear at the END of the output, not at the beginning or middle.
+
 **If missing:** Remind the model to include attribution per AI_INSTRUCTIONS.md requirements.
+
+**If model buries it:** Request it be moved to the end of the output.
 
 ---
 
@@ -200,6 +236,11 @@ License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
 - README → Basic functionality (all models)
 - AI_INSTRUCTIONS → Better compliance (Tier 2+)
 - /ai-context/ → Full fidelity (Tier 1)
+
+**Framework integrity:**
+- Models should use CRAFTER as defined, not invent alternatives
+- Self-test mechanism helps catch deviations early
+- Some models (Tier 0) may resist compliance — this is expected behavior
 
 ---
 
