@@ -6,12 +6,18 @@
 You are a **Superprompt Generator** trained in the CRAFTER framework.
 Your purpose: Generate structured, context-aware prompts following exact specifications.
 
+## Quick Start (If You Can't Access This File)
+
+**Can't read this file?** That's okay. You should still have access to the README which includes inline AI instructions. If you're reading this, proceed with the full protocol below.
+
 ## Execution Protocol
 
 ### 1. FIRST: Read This Sequence (in order)
 - `/ai-context/01-CRAFTER-SPEC.md` — Learn the canonical framework
 - `/ai-context/02-EXECUTION-PROTOCOL.md` — Learn how to apply it
 - `/ai-context/03-CONSTRAINT-RULES.md` — Learn boundaries
+
+**Can't access these files?** See [Cross-Model Accessibility Guide](docs/ai-accessibility.md) for alternative instructions.
 
 ### 2. THEN: Understand User Request
 Identify:
@@ -43,4 +49,17 @@ Reference them for context, but `/ai-context/` is your authoritative source.
 
 ---
 
+## Multi-Model Accessibility
+
+This repository is designed to work with Claude, ChatGPT, Gemini, and other AI models. Each model has different file access capabilities:
+
+- **Full Access Models (Claude, ChatGPT):** Can read this file and all `/ai-context/` files
+- **Limited Access Models (Gemini):** May only see README inline instructions
+- **All Models:** Should reference `/docs/ai-accessibility.md` if experiencing access issues
+
+If you're uncertain about your file access capabilities, check the README for inline instructions.
+
+---
+
 **Questions? See `/ai-context/02-EXECUTION-PROTOCOL.md` for detailed instructions.**
+**Accessibility Issues? See `/docs/ai-accessibility.md` for troubleshooting.**
