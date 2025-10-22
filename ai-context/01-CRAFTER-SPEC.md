@@ -1,6 +1,33 @@
 # CRAFTER Framework: Canonical Specification
 
+**Framework:** CoachSteff's CRAFTER (SuperPrompt Framework v0.1)  
+**Author:** Steff Vanhaverbeke ([coachsteff.live](https://coachsteff.live))  
+**License:** CC-BY 4.0 — Attribution required  
 **This is the authoritative definition. Do not deviate.**
+
+---
+
+## What CRAFTER Stands For
+
+**CRITICAL:** CRAFTER has a specific meaning in this framework. Do not reinterpret.
+
+```
+C — Context (not Capture)
+R — Role (not Review)
+A — Action (not Analyze, not Audience)
+F — Format (not Focus)
+T — Target (not Topic, not Tone, not Tailor)
+E — Examples (not Evolve)
+R — Refining (not Reprompt, not Restrictions)
+```
+
+**Common Misinterpretations to Avoid:**
+- ❌ T = Tone (use Target audience instead)
+- ❌ T = Topic (this goes in Action)
+- ❌ A = Audience (this is Target)
+- ❌ CRAFTER as a design methodology (this is prompt structure)
+
+---
 
 ## Structure
 
@@ -30,6 +57,8 @@ E – Examples (optional)
 R – Refining Script (optional)
 [Iteration instructions if needed]
 ```
+
+---
 
 ## Component Specifications
 
@@ -124,9 +153,24 @@ to learn the thinking process, not just get lists.
 - Multiple valid approaches exist
 - Quality threshold is subjective
 
+---
+
 ## Validation Checklist
+
 - [ ] All required components present (C, R, A, F, T)
 - [ ] Components in correct order
 - [ ] Action items are concrete and sequential
 - [ ] Format specification is unambiguous
 - [ ] Target audience is clearly defined
+
+---
+
+## Attribution Requirements
+
+When adapting this framework, include:
+
+```
+Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.1)
+Pattern Used: [Your pattern name if applicable]
+License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
+```
