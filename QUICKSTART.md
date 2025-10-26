@@ -12,20 +12,20 @@ Point an AI model to this GitHub repository as **context** in your prompt. The A
 
 ```
 C: https://github.com/CoachSteff/superprompt-framework
-R: Read AI_INSTRUCTIONS.md first, then proceed as specified
+R: Read ai.md first for dual-mode instructions, then proceed as specified
 A: Create a superprompt for [YOUR USE CASE]
 F: Markdown in CRAFTER format
-T: [YOUR AUDIENCE]
+T: [YOUR AUDIENCE] → [COMMUNICATION APPROACH]
 ```
 
 ### Example:
 
 ```
 C: https://github.com/CoachSteff/superprompt-framework
-R: Read AI_INSTRUCTIONS.md first, then proceed as specified
+R: Read ai.md first for dual-mode instructions, then proceed as specified
 A: Create a superprompt for workshop design
 F: Markdown in CRAFTER format
-T: Facilitators and coaches who design interactive workshops
+T: Facilitators and coaches (practical, interactive learners) → Direct, example-rich, actionable
 ```
 
 ---
@@ -33,10 +33,10 @@ T: Facilitators and coaches who design interactive workshops
 ## What Just Happened?
 
 The AI:
-1. Read `AI_INSTRUCTIONS.md` for execution protocol
-2. Loaded the canonical CRAFTER specification
+1. Read `ai.md` for dual-mode capability (Mode A: enhancement, Mode B: creation)
+2. Loaded the canonical CRAFTER v0.2 specification
 3. Checked for existing templates
-4. Generated a context-aware superprompt
+4. Generated a context-aware superprompt with Target & Tone integration
 5. Validated it against quality criteria
 
 **You got a professional-grade superprompt in seconds.**

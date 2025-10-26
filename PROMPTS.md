@@ -8,6 +8,22 @@ Use tags to filter and find what you need. Patterns are reusable reasoning struc
 
 ## Examples
 
+### example-mode-a-enhancement.md
+**Path:** `/examples/example-mode-a-enhancement.md`  
+**Tags:** `mode-a`, `enhancement`, `meta-prompt`, `restructuring`, `framework-application`  
+**Pattern:** Mode A (Meta-Prompt Enhancement)  
+**Description:** Demonstrates how to take a vague prompt and restructure it using the CRAFTER framework. Shows before/after comparison with explanations of changes made.
+
+---
+
+### example-mode-b-creation.md
+**Path:** `/examples/example-mode-b-creation.md`  
+**Tags:** `mode-b`, `creation`, `superprompt-generation`, `workplace-communication`, `difficult-conversations`  
+**Pattern:** Mode B (Superprompt Creation)  
+**Description:** Complete example of creating a "Difficult Conversation Preparation Coach" superprompt from scratch using all 7 CRAFTER components. Includes design process and validation.
+
+---
+
 ### coaching-reflection.md
 **Path:** `/examples/coaching-reflection.md`  
 **Tags:** `coaching`, `leadership`, `reflection`, `monthly-review`, `executive-development`  

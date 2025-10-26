@@ -1,4 +1,4 @@
-# SuperPrompt Template v0.1
+# SuperPrompt Template v0.2
 
 **Copy and paste this template into any AI tool (Claude, GPT, Gemini, Llama) or workflow (Cursor, GitHub Copilot). Replace the placeholders with your specifics.**
 
@@ -7,9 +7,26 @@
 ```markdown
 Title: <give your superprompt a descriptive name>
 
-ROLE & TONE
+CONTEXT
+<Provide everything the model needs to reason well: domain facts, constraints, examples, style guides, prior decisions, relevant background.>
+
+Example:
+- Audience: 15-20 mid-level managers in tech companies
+- Setting: In-person workshop, no tech required
+- Constraints: Must fit in 90 minutes, budget €500 for materials
+- Prior decision: Focus on "flexible thinking" as capability
+
+ROLE
 You are <define the role: coach, analyst, technical writer, strategist>.
-Write with <specify tone: warm and empathetic / sharp and direct / formal and technical> for <target audience: executives / developers / workshop participants>.
+Your expertise includes <specific capabilities relevant to this task>.
+
+TARGET & TONE
+**Target:** <target audience with characteristics>
+**Tone:** <communication approach suited to this audience>
+
+Example:
+- Target: Mid-level managers (busy, practical, need actionable tools)
+- Tone: Direct and engaging. Use plain language. Provide clear next steps. No corporate jargon.
 
 INTENT
 <One paragraph describing what success looks like. Include measurable criteria if possible.>
@@ -105,7 +122,7 @@ Before finalizing, verify:
 
 ## Three Quick Customization Levers
 
-1. **Tone**: Change "warm and empathetic" to "sharp and analytical" to shift the entire response style
+1. **Target & Tone**: Adjust audience characteristics and communication approach to match your needs (e.g., "Executives (time-constrained) → Concise, quantified, action-oriented")
 2. **Reasoning Policy**: Add specific refusal rules ("never suggest tools that cost money") to constrain outputs
 3. **Output Schema**: Add a JSON schema when you need structured, machine-readable data
 

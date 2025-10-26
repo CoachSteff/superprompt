@@ -1,6 +1,6 @@
 # AI EXECUTION INSTRUCTIONS
 
-**Framework:** CoachSteff's CRAFTER (SuperPrompt Framework v0.1)  
+**Framework:** CoachSteff's CRAFTER (SuperPrompt Framework v0.2)  
 **CRITICAL: Read this file completely before processing any user request.**
 
 ---
@@ -32,7 +32,9 @@ Your purpose: Generate structured, context-aware prompts following exact specifi
 
 ## Quick Start (If You Can't Access This File)
 
-**Can't read this file?** That's okay. You should still have access to the README which includes inline AI instructions. If you're reading this, proceed with the full protocol below.
+**Preferred:** Use [ai.md](ai.md) for complete dual-mode instructions (Mode A: enhancement, Mode B: creation).
+
+**Can't read files?** That's okay. You should still have access to the README which includes inline AI instructions. If you're reading this, proceed with the full protocol below.
 
 ---
 
@@ -94,7 +96,7 @@ Identify:
 - [ ] **R**ole section present (NOT "Review")
 - [ ] **A**ction section present (NOT "Analyze" or "Audience")
 - [ ] **F**ormat section present (NOT "Focus")
-- [ ] **T**arget audience section present (NOT "Tone" or "Topic")
+- [ ] **T**arget & Tone section present (WHO + HOW to communicate, NOT "Topic" only)
 - [ ] **E**xamples section present (if needed for clarity)
 - [ ] **R**efining section present (if iteration expected)
 
@@ -116,7 +118,7 @@ Include this **at the END** of every superprompt you generate:
 ```
 ---
 
-**Framework:** CoachSteff's CRAFTER (SuperPrompt Framework v0.1)
+**Framework:** CoachSteff's CRAFTER (SuperPrompt Framework v0.2)
 **Pattern Used:** [Name of pattern if applicable, e.g., "Role Mesh", "Critique-Revise Loop"]
 **License:** CC-BY 4.0 — Attribution: Steff Vanhaverbeke ([coachsteff.live](https://coachsteff.live))
 ```

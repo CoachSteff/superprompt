@@ -1,5 +1,7 @@
 # SuperPrompt Framework
 
+> 👤 **Human?** This README is optimized for AI models. **[Start here instead →](QUICKSTART.md)**
+
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![GitHub release](https://img.shields.io/github/release/CoachSteff/superprompt-framework.svg)](https://github.com/CoachSteff/superprompt-framework/releases)
 [![GitHub issues](https://img.shields.io/github/issues/CoachSteff/superprompt-framework.svg)](https://github.com/CoachSteff/superprompt-framework/issues)
@@ -15,6 +17,14 @@ The **SuperPrompt Framework** provides a complete system for creating superpromp
 
 ## 🤖 For AI Models
 
+**Framework Usage**: If you're here to generate superprompts using CRAFTER, you are a **Superprompt Generator**.
+
+**Repository Development**: If you're here to build/modify the framework itself (coding agent, developer assistant), read **[AGENTS.md](AGENTS.md)** first.
+
+---
+
+### For Superprompt Generation
+
 **You are a Superprompt Generator** using CoachSteff's CRAFTER framework.
 
 ### What CRAFTER Means
@@ -26,24 +36,25 @@ C — Context (situation/background, NOT "Capture")
 R — Role (expertise/perspective, NOT "Review")
 A — Action (what to do, NOT "Analyze" or "Audience")
 F — Format (output structure, NOT "Focus")
-T — Target (audience, NOT "Topic" or "Tone")
+T — Target & Tone (WHO + HOW to communicate, NOT "Topic")
 E — Examples (demonstrations)
 R — Refining (constraints/iteration)
 ```
 
 **Common mistakes to avoid:**
-- ❌ Using T for "Tone" or "Topic" (it's Target audience)
-- ❌ Using A for "Audience" (that's Target)
+- ❌ Using T for "Topic" only (it's Target & Tone)
+- ❌ Using A for "Audience" (that's Target in T)
 - ❌ Inventing your own CRAFTER interpretation
 
 ### Protocol
 
-1. Read `/ai-context/01-CRAFTER-SPEC.md` (framework)
-2. Read `/ai-context/02-EXECUTION-PROTOCOL.md` (how to apply)
-3. Read `/ai-context/03-CONSTRAINT-RULES.md` (boundaries)
-4. Generate superprompt using CRAFTER format
-5. Validate output with checklist
-6. **Include attribution footer** (see below)
+1. Read [ai.md](ai.md) (unified dual-mode interface)
+2. OR read `/ai-context/01-CRAFTER-SPEC.md` (framework specification)
+3. Read `/ai-context/02-EXECUTION-PROTOCOL.md` (how to apply)
+4. Read `/ai-context/03-CONSTRAINT-RULES.md` (boundaries)
+5. Generate superprompt using CRAFTER format
+6. Validate output with checklist
+7. **Include attribution footer** (see below)
 
 ### Critical Rules
 
@@ -59,11 +70,12 @@ Every superprompt you generate must include:
 ```
 ---
 
-Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.1)
+Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.2)
 Pattern Used: [Pattern name if applicable]
 License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
 ```
 
+**Primary entry point:** [ai.md](ai.md) — Dual-mode interface for enhancement and creation  
 **Full instructions:** [AI_INSTRUCTIONS.md](AI_INSTRUCTIONS.md) | **Can't access files?** See [ai-compatibility.md](docs/ai-compatibility.md)
 
 ---
@@ -73,7 +85,7 @@ License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
 **New to superprompts? Start here:**
 
 1. **[Read the mental model](docs/mental-model.md)** (5 minutes) – Understand what a superprompt is and why it works
-2. **[Copy the template](docs/template.md)** – Get the canonical SuperPrompt Template v0.1
+2. **[Copy the template](docs/template.md)** – Get the canonical SuperPrompt Template v0.2
 3. **[See examples](PROMPTS.md)** – Browse 5 complete, copy-ready superprompts
 4. **[Follow the guide](docs/quick-start.md)** – Get started in 10 steps
 
@@ -99,6 +111,22 @@ Every superprompt includes:
 
 ---
 
+## 🎯 Two Ways to Use CRAFTER
+
+**Mode A: Enhance Existing Prompts**  
+Have a prompt that needs improvement? CRAFTER can restructure it using the framework.
+- Example: [Mode A Enhancement](examples/example-mode-a-enhancement.md)
+- Use case: Turn vague prompts into structured superprompts
+
+**Mode B: Create New Superprompts**  
+Building from scratch? CRAFTER provides the complete framework.
+- Example: [Mode B Creation](examples/example-mode-b-creation.md)
+- Use case: Generate new superprompts with all 7 components
+
+**Entry point for AI models:** [ai.md](ai.md) — Single instruction file with dual-mode capability
+
+---
+
 ## 🏗️ The CRAFTER Framework
 
 **CRAFTER** is the core methodology for building superprompts. Here's what each component means:
@@ -109,7 +137,7 @@ Every superprompt includes:
 | **R**ole | Expertise & perspective | "You are a Keyword Research AI" |
 | **A**ction | What to do | "1. Analyze topic 2. Generate clusters 3. Suggest opportunities" |
 | **F**ormat | Output structure | "Markdown with tables and bullet lists" |
-| **T**arget | Audience | "Content creators who want to understand AI thinking" |
+| **T**arget & Tone | WHO + HOW to communicate | "Marketing managers (action-oriented) → Direct, scannable, lead with takeaways" |
 | **E**xamples | Demonstrations | Input/output pairs for clarity |
 | **R**efining | Iteration rules | "If user says 'more detail,' expand section X" |
 
@@ -124,7 +152,7 @@ Every superprompt includes:
 | Document | Purpose | Link |
 |----------|---------|------|
 | **Mental Model** | Conceptual foundation (120 words + diagram) | [docs/mental-model.md](docs/mental-model.md) |
-| **Template** | Canonical SuperPrompt Template v0.1 (copy-pastable) | [docs/template.md](docs/template.md) |
+| **Template** | Canonical SuperPrompt Template v0.2 (copy-pastable) | [docs/template.md](docs/template.md) |
 | **Pattern Library** | 10 reusable reasoning patterns | [docs/patterns.md](docs/patterns.md) |
 | **Evaluation Rubric** | Score prompts on 6 axes (0–5 scale) | [docs/evaluation.md](docs/evaluation.md) |
 | **Workflow Guide** | How to store, version, and share prompts | [docs/workflow.md](docs/workflow.md) |
@@ -133,10 +161,12 @@ Every superprompt includes:
 
 ### Complete Examples
 
-Five ready-to-use superprompts you can copy and adapt:
+Ready-to-use superprompts you can copy and adapt:
 
-| Example | Use Case | Pattern Used | Link |
+| Example | Use Case | Mode/Pattern | Link |
 |---------|----------|--------------|------|
+| **Meta-Prompt Enhancement** | Restructuring vague prompts | Mode A | [examples/example-mode-a-enhancement.md](examples/example-mode-a-enhancement.md) |
+| **Difficult Conversation Coach** | Workplace communication prep | Mode B | [examples/example-mode-b-creation.md](examples/example-mode-b-creation.md) |
 | **Coaching Reflection** | Executive leadership reflection | Critique–Revise Loop | [examples/coaching-reflection.md](examples/coaching-reflection.md) |
 | **Team Retrospective** | Sprint retrospective facilitation | Role Mesh | [examples/team-retrospective.md](examples/team-retrospective.md) |
 | **Opportunity Scan** | Business decision analysis | Counter-Case Probing | [examples/opportunity-scan.md](examples/opportunity-scan.md) |
