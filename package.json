@@ -1,6 +1,6 @@
 {
   "name": "superprompt-framework",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A comprehensive framework for AI prompt engineering and context management",
   "main": "index.js",
   "scripts": {

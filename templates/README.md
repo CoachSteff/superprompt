@@ -4,10 +4,10 @@
 
 ## What Are Templates?
 
-Templates are **adaptation-ready superprompts** that follow the CRAFTER framework. Unlike the examples in `/examples/`, which are complete and polished, templates are designed to be **customized** for your specific needs.
+Templates are **adaptation-ready superprompts** that follow the CRAFTER v0.2 framework. Unlike the examples in `/examples/`, which are complete and polished, templates are designed to be **customized** for your specific needs.
 
 Each template includes:
-- **Full CRAFTER structure** (C, R, A, F, T, E, R)
+- **Full CRAFTER v0.2 structure** (Context, Role, Action, Format, Target & Tone, Examples, Refining)
 - **Adaptation zones** — marked sections you should customize
 - **Use cases** — when to use this template
 - **Anti-patterns** — when NOT to use this template

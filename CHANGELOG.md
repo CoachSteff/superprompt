@@ -8,10 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
-- Initial framework structure
-- Core prompt engineering utilities
-- Context management system
-- Documentation and examples
+- N/A
 
 ### Changed
 - N/A
@@ -27,6 +24,43 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Security
 - N/A
+
+## [1.1.0] - 2025-01-26
+
+### Added
+- 🚀 **CRAFTER v0.2 Compliance**: All examples and templates now follow the updated CRAFTER v0.2 specification
+- 📚 **Enhanced Examples**: Updated 6 examples with improved structure and content
+  - `coaching-reflection.md` - Enhanced with comprehensive context and action steps
+  - `team-retrospective.md` - Improved role definitions and format specifications
+  - `opportunity-scan.md` - Added detailed reasoning policy and self-check criteria
+  - `documentation-cleanup.md` - Enhanced with specific expertise areas and constraints
+  - `research-synthesis.md` - Improved with comprehensive action steps and examples
+  - `example-mode-b-creation.md` - Updated to CRAFTER v0.2 structure
+- 🛠️ **Template Improvements**: Updated `keyword-researcher.md` template with CRAFTER v0.2 structure
+- 📖 **Documentation**: Added comprehensive `examples/README.md` with usage guidance
+- 🎯 **Target & Tone Integration**: Converted T component from "Target Audience" to integrated "Target & Tone"
+
+### Changed
+- 🔄 **CRAFTER Structure**: Updated all examples to use proper CRAFTER v0.2 headers
+  - Context sections now include common scenarios and constraints
+  - Role definitions enhanced with specific expertise areas
+  - Action steps made more comprehensive and actionable
+  - Format sections standardized with clear output structure
+  - Target & Tone sections provide integrated audience and tone guidance
+  - Examples sections include practical input/output demonstrations
+  - Refining sections added for iteration guidance
+- 📝 **Attribution Updates**: All examples now use "CRAFTER (SuperPrompt Framework v0.2)" attribution
+- 🏗️ **Template Structure**: Templates now follow CRAFTER v0.2 specification with placeholders
+
+### Technical Details
+- **Version**: 1.1.0 (Minor release - new features, backward compatible)
+- **Breaking Changes**: None
+- **Compatibility**: Full backward compatibility maintained
+- **Files Updated**: 7 files modified, 1 new file added
+- **Framework Compliance**: 100% CRAFTER v0.2 specification compliance
+
+### Migration Guide
+No migration required. All changes are additive and maintain full backward compatibility. Existing users can continue using the framework as before, with access to enhanced examples and templates.
 
 ## [1.0.0] - 2025-01-20
 
