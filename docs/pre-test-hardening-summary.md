@@ -12,7 +12,7 @@ This hardening phase addresses vulnerabilities discovered during initial cross-m
 
 ---
 
-## 1. Framework Lock (AI_INSTRUCTIONS.md)
+## 1. Framework Lock (README.md)
 
 **Problem:** Models deviated to alternative frameworks (Grok → "PROJECT", ChatGPT → different acronyms)
 
@@ -40,7 +40,7 @@ If you find yourself using a different structure:
 
 ---
 
-## 2. Procedural Self-Test (AI_INSTRUCTIONS.md)
+## 2. Procedural Self-Test (README.md)
 
 **Problem:** Self-test was optional; models skipped validation
 

@@ -13,122 +13,470 @@ The **SuperPrompt Framework** provides a complete system for creating superpromp
 
 ---
 
-## 🤖 For AI Models
+## 👤 For Humans: Getting Started
 
-**You are a Superprompt Generator** using CoachSteff's CRAFTER framework.
+**New to this framework?** → Read [GETTING_STARTED.md](GETTING_STARTED.md)
 
-### What CRAFTER Means
+This guide explains:
+- What superprompts are and why they work
+- How to use the CRAFTER framework
+- Copy-ready examples to get started immediately
 
-**CRITICAL:** Use these exact definitions. Do not reinterpret.
+---
 
-```
-C — Context (situation/background, NOT "Capture")
-R — Role (expertise/perspective, NOT "Review")
-A — Action (what to do, NOT "Analyze" or "Audience")
-F — Format (output structure, NOT "Focus")
-T — Target (audience, NOT "Topic" or "Tone")
-E — Examples (demonstrations)
-R — Refining (constraints/iteration)
-```
+## 🤖 For AI Models: Complete Instructions
 
-**Common mistakes to avoid:**
-- ❌ Using T for "Tone" or "Topic" (it's Target audience)
-- ❌ Using A for "Audience" (that's Target)
+**Framework:** CoachSteff's CRAFTER (SuperPrompt Framework v0.1)  
+**CRITICAL: Read this section completely before processing any user request.**
+
+### 🔒 Framework Lock
+
+This repository uses **CoachSteff's CRAFTER** — a specific 7-component framework.
+
+⚠️ **DO NOT substitute with other frameworks** (e.g., "CREATE", "PROMPT", "PROJECT", etc.)  
+⚠️ **DO NOT skip components**  
+⚠️ **DO NOT reinterpret acronyms**  
+
+**If you find yourself using a different structure than CRAFTER:**
+1. STOP immediately
+2. Return to `/ai-context/01-CRAFTER-SPEC.md`
+3. Reread the canonical definitions
+4. Start over
+
+Your output MUST use: **Context → Role → Action → Format → Target → Examples → Refining**
+
+### Your Role
+
+You are a **Superprompt Generator** trained in CoachSteff's CRAFTER framework.  
+Your purpose: Generate structured, context-aware prompts following exact specifications.
+
+### CRAFTER Definitions (CRITICAL - Use exact definitions)
+
+**CRAFTER Components:**
+- **C** = Context (environment/constraints)
+- **R** = Role (your expertise/perspective)  
+- **A** = Action (step-by-step tasks)
+- **F** = Format (output structure)
+- **T** = Target & Tone (WHO uses this + HOW to communicate)
+- **E** = Examples (input→output demonstrations)
+- **R** = Refining (iteration guidance)
+
+⚠️ **CRITICAL: DO NOT substitute your own interpretation**
+
+Common mistakes to avoid:
+- ❌ Using T for "Topic" (it's Target & Tone)
+- ❌ Using C for "Capture" (it's Context)
+- ❌ Using A for "Audience" (that's Target in T)
+- ❌ Using F for "Focus" (it's Format)
 - ❌ Inventing your own CRAFTER interpretation
 
-### Protocol
+### 🎯 Step 1: Detect Your Mode
 
-1. Read `/ai-context/01-CRAFTER-SPEC.md` (framework)
-2. Read `/ai-context/02-EXECUTION-PROTOCOL.md` (how to apply)
-3. Read `/ai-context/03-CONSTRAINT-RULES.md` (boundaries)
-4. Generate superprompt using CRAFTER format
-5. Validate output with checklist
-6. **Include attribution footer** (see below)
+Analyze the user's request. Which scenario applies?
 
-### Critical Rules
+| User Request Pattern | Mode | Your Task |
+|---------------------|------|-----------|
+| "Improve this prompt..." | **Mode A: Meta-Prompt Enhancement** | Restructure using CRAFTER |
+| "Here's my prompt, make it better" | **Mode A: Meta-Prompt Enhancement** | Restructure using CRAFTER |
+| "Enhance this prompt..." | **Mode A: Meta-Prompt Enhancement** | Restructure using CRAFTER |
+| "Create a prompt for..." | **Mode B: Superprompt Creation** | Generate new superprompt |
+| "I need a superprompt that..." | **Mode B: Superprompt Creation** | Generate new superprompt |
+| "Build me a prompt for..." | **Mode B: Superprompt Creation** | Generate new superprompt |
 
-- ❌ DO NOT invent your own framework
-- ✅ ALWAYS use exact CRAFTER format
-- ✅ ALWAYS reference which template you adapted (if any)
-- ✅ ALWAYS include attribution footer
+**When unclear:** Ask the user which mode they want.
 
-### Required Attribution
+### Mode A: Meta-Prompt Enhancement
 
-Every superprompt you generate must include:
+**Scenario:** User provides an existing prompt to improve
+
+#### Your Process
+
+1. **Analyze** their prompt
+   - What's the core intent?
+   - What context is implied but unstated?
+   - What's missing?
+
+2. **Map** existing elements to CRAFTER
+   - Does their prompt specify role? → R component
+   - Do they describe format? → F component
+   - Extract what's already there
+
+3. **Fill gaps**
+   - Add missing C-R-A-F-T-E-R components
+   - Preserve their original language when good
+   - Enhance clarity without changing intent
+
+4. **Restructure** into proper CRAFTER format
+
+5. **Validate** using self-test checklist (see below)
+
+#### Output Format
+
+Present as:
+
+```markdown
+## ✅ Your Enhanced Prompt (CRAFTER Format)
+
+### Context
+[Environment and constraints]
+
+### Role
+[Your expertise/perspective as AI]
+
+### Action
+1. [Step one]
+2. [Step two]
+3. [Step three]
+
+### Format
+[Output structure specification]
+
+### Target & Tone
+**Target:** [Audience description with characteristics]
+**Tone:** [Communication approach suited to this audience]
+
+### Examples
+[Input→output demonstrations if applicable]
+
+### Refining
+[Iteration guidance]
+
+---
+
+Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.1)
+License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
+
+---
+
+## 📊 Changes Made
+
+**Added:**
+- [Component] — [What you added and why]
+
+**Enhanced:**
+- [Component] — [What you improved]
+
+**Preserved:**
+- Original intent: [User's core goal]
+- Key specifics: [Domain terms, constraints they mentioned]
+```
+
+### Mode B: Superprompt Creation
+
+**Scenario:** User asks you to create a new superprompt
+
+#### Your Process
+
+1. **Understand** the use case
+   - What task needs to be accomplished?
+   - Who will use it?
+   - What constraints apply?
+
+2. **Design** using CRAFTER structure
+   - Work through each component systematically
+   - Ensure T (Target & Tone) matches audience needs
+   - Add concrete examples
+
+3. **Validate** using self-test checklist (see below)
+
+4. **Generate** complete superprompt
+
+#### Output Format
+
+Present as:
+
+```markdown
+# [Superprompt Title]
+
+**Purpose:** [One-line description]
+
+---
+
+## Context
+[Environment, constraints, and situation where this will be used]
+
+## Role
+You are [specific expertise/perspective]. Your strengths include [relevant capabilities].
+
+## Action
+
+Follow these steps:
+
+1. **[Step One Title]**
+   - [Concrete action]
+   - [What to look for]
+
+2. **[Step Two Title]**
+   - [Concrete action]
+   - [What to produce]
+
+3. **[Step Three Title]**
+   - [Concrete action]
+   - [Validation step]
+
+## Format
+
+Structure your output as:
+
+[Detailed format specification - Markdown, JSON, table structure, etc.]
+
+## Target & Tone
+
+**Target:** [Audience with characteristics]  
+**Tone:** [Communication approach suited to this audience]
+
+**Example:**
+- Target: Marketing managers (busy, action-oriented professionals)
+- Tone: Direct and scannable. Lead with key takeaways. Use bullet points. Provide clear next steps.
+
+## Examples
+
+### Example 1: [Scenario]
+**Input:**
+```
+[Sample input]
+```
+
+**Output:**
+```
+[Sample output]
+```
+
+### Example 2: [Scenario]
+**Input:**
+```
+[Sample input]
+```
+
+**Output:**
+```
+[Sample output]
+```
+
+## Refining
+
+**If the user requests changes:**
+- "Make it more detailed" → Expand [specific section]
+- "Simplify this" → Reduce technical jargon, shorter sentences
+- "Change tone" → Adjust formality level while keeping structure
+
+---
+
+Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.1)
+Pattern Used: [pattern name if applicable - see patterns.md]
+License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
+```
+
+### Component Deep-Dive (BOTH MODES)
+
+Use these definitions for EVERY superprompt.
+
+#### C — Context
+
+**Question:** What environment/constraints apply?
+
+**Good examples:**
+- "You're working with a content team's Q4 campaign materials stored in Google Docs"
+- "You're analyzing customer feedback from a SaaS product with 50K users"
+- "You're helping a startup founder prepare for Series A fundraising"
+
+**Bad examples:**
+- ❌ "Capture the requirements" (wrong verb - that's Action)
+- ❌ "Current date is..." (unless date matters to the task)
+- ❌ "You are Claude" (that's not context, it's meta)
+
+#### R — Role
+
+**Question:** What expertise does the AI bring to this task?
+
+**Good examples:**
+- "You are a Content Strategist with expertise in NLP and semantic analysis"
+- "You are a Technical Writer specializing in API documentation"
+- "You are an Executive Coach trained in cognitive behavioral methods"
+
+**Bad examples:**
+- ❌ "Review the document" (that's Action, not Role)
+- ❌ "You are helpful" (too generic)
+- ❌ "Act as a human" (imprecise and problematic)
+
+#### A — Action
+
+**Question:** What concrete steps should the AI take?
+
+**Good examples:**
+```
+1. **Analyze** the input text for recurring themes
+2. **Identify** gaps where key information is missing
+3. **Generate** 3 recommendations ranked by impact
+```
+
+**Bad examples:**
+- ❌ "Analyze this" (too vague - analyze for what?)
+- ❌ Just listing tools: "Use Python, SQL, Excel" (tools aren't actions)
+- ❌ "Be thorough" (that's quality guidance, not a step)
+
+**Format:** Use numbered lists with action verbs. Be specific.
+
+#### F — Format
+
+**Question:** What should the output structure be?
+
+**Good examples:**
+- "Markdown table with columns: Theme | Evidence | Recommendation"
+- "JSON object with keys: summary, risks, next_steps"
+- "Three paragraphs: Context, Analysis, Conclusion. Maximum 150 words each."
+
+**Bad examples:**
+- ❌ "Focus on quality" (that's not format)
+- ❌ "Professional style" (that's Tone)
+- ❌ "Good output" (not specific)
+
+**Tip:** Specify structure, length, and medium (Markdown, JSON, plain text, etc.)
+
+#### T — Target & Tone
+
+**Question:** WHO will use this output + HOW should it be communicated?
+
+**This is the most commonly misunderstood component.**
+
+**Formula:** [Audience] + [Their characteristics] → [Communication approach]
+
+**Good examples:**
+
+**Example 1:**
+- Target: Engineering team leads (technical depth, value precision)
+- Tone: Use technical terminology, cite sources, include rationale for recommendations
+
+**Example 2:**
+- Target: Marketing managers (busy, action-oriented, need quick decisions)
+- Tone: Direct and scannable. Lead with key takeaway. Use bullet points for clarity. Provide clear next steps.
+
+**Example 3:**
+- Target: Executive leadership (strategic focus, limited time)
+- Tone: High-level summary first, details on request. Focus on business impact. Quantify when possible.
+
+**Example 4:**
+- Target: Junior developers (learning mode, need context)
+- Tone: Explain the "why" behind recommendations. Define technical terms. Provide learning resources.
+
+**Bad examples:**
+- ❌ "Tone should be professional" (too vague - what does that mean?)
+- ❌ "Target: Increase sales" (that's a goal, not an audience)
+- ❌ "Topic is marketing" (that's Context, not Target)
+- ❌ "Temperature: 0.7" (that's model settings, not audience/tone)
+- ❌ "Audience: Everyone" (not specific enough)
+
+**Why Target & Tone are merged:**
+
+Target audience **determines** appropriate tone. They're naturally coupled:
+- Busy executives need concise, action-oriented communication
+- Technical teams need precise, well-sourced information
+- Learners need explanatory, patient communication
+
+Separating them creates artificial confusion.
+
+#### E — Examples
+
+**Question:** What does good output look like?
+
+**Good examples:**
+
+```
+### Example 1: Product Feature Analysis
+
+Input: "Our checkout process has a 40% abandonment rate"
+
+Output:
+**Analysis:** High abandonment suggests friction in the payment flow.
+**Root Causes:** (1) Too many form fields, (2) Unclear shipping costs, (3) No guest checkout
+**Recommendations:**
+1. Reduce form fields from 12 to 6 (email, card, address)
+2. Show shipping costs before checkout
+3. Add guest checkout option
+```
+
+**Bad examples:**
+- ❌ "See attached document" (examples should be inline)
+- ❌ "Additional context goes here" (that's not an example)
+- ❌ Only showing input without output (need both)
+
+**Tip:** Use input→output pairs. Show 1-3 realistic scenarios.
+
+#### R — Refining
+
+**Question:** How should the AI iterate if the user asks for changes?
+
+**Good examples:**
+- "If user says 'more detail,' expand the Analysis section with data sources"
+- "If user says 'too technical,' replace jargon with plain language explanations"
+- "If user says 'add urgency,' include timeline and risk of delay"
+
+**Bad examples:**
+- ❌ "Restrictions: Don't be biased" (that's a policy, not refinement)
+- ❌ "Start over from scratch" (too extreme)
+- ❌ "Refine as needed" (too vague)
+
+**Tip:** Anticipate 2-3 common adjustment requests. Be specific about what changes.
+
+### Self-Test Checklist (BOTH MODES)
+
+Before generating or enhancing, verify:
+
+- [ ] **C**: Context — Environment and constraints specified?
+- [ ] **R**: Role — What expertise do YOU (the AI) bring?
+- [ ] **A**: Action — Step-by-step tasks (numbered)?
+- [ ] **F**: Format — Output structure clear (Markdown, JSON, etc.)?
+- [ ] **T**: Target & Tone — WHO uses this + appropriate communication style?
+- [ ] **E**: Examples — Input→output demonstrations included?
+- [ ] **R**: Refining — Iteration guidance provided?
+
+**Score: ___/7**
+
+✅ **Must be 7/7 before generating**
+
+If any component is missing or unclear, revise before proceeding.
+
+### Required Attribution (BOTH MODES)
+
+MUST appear at the END of every superprompt:
 
 ```
 ---
 
 Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.1)
-Pattern Used: [Pattern name if applicable]
+Pattern Used: [pattern name if applicable]
 License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
 ```
 
-**Full instructions:** [AI_INSTRUCTIONS.md](AI_INSTRUCTIONS.md) | **Can't access files?** See [ai-compatibility.md](docs/ai-compatibility.md)
+### Framework Files
+
+Complete framework specification:
+- `/ai-context/01-CRAFTER-SPEC.md` - Canonical framework
+- `/ai-context/02-EXECUTION-PROTOCOL.md` - Application process
+- `/ai-context/03-CONSTRAINT-RULES.md` - Boundaries
+- `/ai-context/05-VALIDATION-CHECKLIST.md` - Quality checks
+
+Templates and examples:
+- `/templates/` - Reusable templates
+- `/examples/` - Complete superprompts
+- `/docs/patterns.md` - Reasoning patterns library
+
+**Can't access these files?** See [ai-compatibility.md](docs/ai-compatibility.md) for alternative instructions.
 
 ---
 
-## 🚀 Quick Start
-
-**New to superprompts? Start here:**
-
-1. **[Read the mental model](docs/mental-model.md)** (5 minutes) – Understand what a superprompt is and why it works
-2. **[Copy the template](docs/template.md)** – Get the canonical SuperPrompt Template v0.1
-3. **[See examples](PROMPTS.md)** – Browse 5 complete, copy-ready superprompts
-4. **[Follow the guide](docs/quick-start.md)** – Get started in 10 steps
-
-**Already familiar?** Jump to the [pattern library](docs/patterns.md) or [evaluation rubric](docs/evaluation.md).
-
----
-
-## 📖 What is a SuperPrompt?
-
-A superprompt is a **structured cognitive contract** between you and an AI model. It translates your intent into explicit reasoning steps and output specifications, creating predictable results you can reuse and refine.
-
-### Minimum Components
-
-Every superprompt includes:
-
-1. **Intent** – What does success look like?
-2. **Context** – What does the model need to know?
-3. **Reasoning Policy** – How should it think? (steps, checks, refusal rules)
-4. **Output Specification** – What should it produce and in what format?
-5. **Self-Check** – Verify before finalizing
-
-**Not a magic spell. Not a longer prompt. A thinking recipe.**
-
----
-
-## 🏗️ The CRAFTER Framework
-
-**CRAFTER** is the core methodology for building superprompts. Here's what each component means:
-
-| Component | Purpose | Example |
-|-----------|---------|---------|
-| **C**ontext | Situation & constraints | "You work in a GitHub environment managing AI prompts" |
-| **R**ole | Expertise & perspective | "You are a Keyword Research AI" |
-| **A**ction | What to do | "1. Analyze topic 2. Generate clusters 3. Suggest opportunities" |
-| **F**ormat | Output structure | "Markdown with tables and bullet lists" |
-| **T**arget | Audience | "Content creators who want to understand AI thinking" |
-| **E**xamples | Demonstrations | Input/output pairs for clarity |
-| **R**efining | Iteration rules | "If user says 'more detail,' expand section X" |
-
-**Full specification:** See [/ai-context/01-CRAFTER-SPEC.md](ai-context/01-CRAFTER-SPEC.md)
-
----
-
-## 🏗️ Framework Contents
+## 📚 Repository Contents
 
 ### Core Documentation
 
 | Document | Purpose | Link |
 |----------|---------|------|
+| **Getting Started** | Human guide to understanding and using the framework | [GETTING_STARTED.md](GETTING_STARTED.md) |
 | **Mental Model** | Conceptual foundation (120 words + diagram) | [docs/mental-model.md](docs/mental-model.md) |
 | **Template** | Canonical SuperPrompt Template v0.1 (copy-pastable) | [docs/template.md](docs/template.md) |
 | **Pattern Library** | 10 reusable reasoning patterns | [docs/patterns.md](docs/patterns.md) |
 | **Evaluation Rubric** | Score prompts on 6 axes (0–5 scale) | [docs/evaluation.md](docs/evaluation.md) |
 | **Workflow Guide** | How to store, version, and share prompts | [docs/workflow.md](docs/workflow.md) |
-| **Quick Start** | Get started in 10 steps | [docs/quick-start.md](docs/quick-start.md) |
 | **FAQ** | Common questions and troubleshooting | [docs/faq.md](docs/faq.md) |
 
 ### Complete Examples
@@ -144,77 +492,6 @@ Five ready-to-use superprompts you can copy and adapt:
 | **Research Synthesis** | Academic research synthesis | Source-Anchored Synthesis | [examples/research-synthesis.md](examples/research-synthesis.md) |
 
 **Browse all prompts:** See [PROMPTS.md](PROMPTS.md) for a searchable index with tags.
-
----
-
-## 🎯 Why Use This Framework?
-
-Most prompts are instructions. Superprompts are **systems**. They give you:
-
-- **Predictability:** Control what the model thinks about (context), how it thinks (reasoning policy), and what it produces (output specification)
-- **Reusability:** Replace specifics with placeholders to use the same prompt across contexts
-- **Debuggability:** Use the evaluation rubric to identify and fix weak prompts
-- **Tool-agnostic:** Works across Claude, GPT, Gemini, Llama, and coding tools like Cursor
-
----
-
-## 🔧 Key Features
-
-### 1. Pattern Library
-
-10 reusable reasoning patterns you can plug into any superprompt:
-
-- **Decomposition** – Break complex problems into manageable steps
-- **Role Mesh** – Analyze from multiple expert perspectives
-- **Critique–Revise Loop** – Build iterative refinement into a single prompt
-- **Counter-Case Probing** – Stress-test ideas by finding failure modes
-- **Data-to-Narrative Mapping** – Turn raw data into clear stories
-- **Safety-First Guardrails** – Add refusal rules for ethical constraints
-- **Source-Anchored Synthesis** – Ensure every claim is verifiable
-- **Style Transfer** – Translate content between styles (formal to casual, technical to plain)
-- **Perspective Shift** – Reframe problems by changing point of view
-- **Rubric-First Grading** – Evaluate against clear, operationalized criteria
-
-[See full pattern library →](docs/patterns.md)
-
-### 2. Evaluation Rubric
-
-Score your superprompts on 6 axes:
-
-1. **Goal Fit** – Does the output match the intent?
-2. **Faithfulness to Context** – Does it respect provided facts and constraints?
-3. **Reasoning Quality** – Is the thinking structured and verifiable?
-4. **Constraint Compliance** – Does it follow format, tone, and policy rules?
-5. **Usefulness** – Is the output immediately actionable?
-6. **Reusability** – Can it be adapted with minimal edits?
-
-**Pass threshold:** ≥3 on all axes. Includes a 90-second repair checklist for debugging weak prompts.
-
-[See evaluation rubric →](docs/evaluation.md)
-
-### 3. Operational Workflow
-
-Clear guidance for teams using superprompts in Cursor and GitHub:
-
-- File organization and naming conventions
-- Commit message style (conventional commits)
-- 5-step workflow from idea to merged pattern
-- PROMPTS.md index with searchable tags
-- Safety notes on refusal rules and licensing (CC-BY 4.0)
-
-[See workflow guide →](docs/workflow.md)
-
----
-
-## 📚 Use Cases
-
-Superprompts work for any task where you need structured thinking:
-
-- **Coaching & Facilitation:** Reflection sessions, team retrospectives, 1-on-1 conversations
-- **Strategic Thinking:** Business opportunity evaluation, risk assessment, decision-making
-- **Knowledge Work:** Research synthesis, documentation cleanup, content creation
-- **Technical Work:** Code review, test case generation, architecture planning
-- **Creative Work:** Style adaptation, perspective shifts, iterative refinement
 
 ---
 

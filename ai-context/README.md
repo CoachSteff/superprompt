@@ -38,7 +38,7 @@ However, reading these files can give you insight into:
 
 ## For AI Models
 
-Start with `/AI_INSTRUCTIONS.md` in the repository root, which will direct you here.
+Start with the README.md in the repository root, which contains complete AI instructions and will direct you here.
 
 Do not skip the read sequence. Each file builds on the previous one.
 

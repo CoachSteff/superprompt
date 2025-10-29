@@ -58,7 +58,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `SECURITY.md` - Security policy and vulnerability reporting
 - `CHANGELOG.md` - This changelog
 - `.gitignore` - Git ignore configuration
-- `meta.md` - Project metadata
+- `meta.md` - Project metadata (archived)
 - `schema.jsonld` - JSON-LD schema definition
 - `research/` - Research documentation and findings
 

@@ -23,10 +23,10 @@ This repository uses a **progressive enhancement approach** with three layers:
 
 The README includes essential CRAFTER framework instructions. Even models with limited GitHub access can read the main page and generate basic superprompts.
 
-### Layer 2: AI_INSTRUCTIONS.md
+### Layer 2: README.md AI Section
 **For models with partial file access**
 
-Full execution protocol, validation checklist, and attribution requirements.
+Complete AI instructions integrated into README.md with execution protocol, validation checklist, and attribution requirements.
 
 ### Layer 3: /ai-context/ Directory
 **For models with full file access**
@@ -43,7 +43,7 @@ Based on testing across platforms, here's what to expect:
 **Models:** Perplexity, Claude with Projects
 
 **Capabilities:**
-- Accesses all three layers (README + AI_INSTRUCTIONS + /ai-context/)
+- Accesses all three layers (README + /ai-context/)
 - Produces framework-compliant + high-quality output
 - Includes evaluation rubric and pattern references
 - Proper attribution
@@ -132,11 +132,11 @@ Use CRAFTER principles to create frameworks that generate domain-specific output
 
 ### Model isn't following the format
 
-**Diagnostic question:** "Did you read AI_INSTRUCTIONS.md and /ai-context/01-CRAFTER-SPEC.md?"
+**Diagnostic question:** "Did you read the AI instructions in README.md and /ai-context/01-CRAFTER-SPEC.md?"
 
-**If no:** Paste the contents of AI_INSTRUCTIONS.md directly in chat
+**If no:** Direct them to the AI section in README.md
 
-**If yes but still wrong:** Ask the model to complete the Framework Fidelity Self-Test from AI_INSTRUCTIONS.md
+**If yes but still wrong:** Ask the model to complete the Framework Fidelity Self-Test from the README.md AI section
 
 ---
 
@@ -222,7 +222,7 @@ License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
 
 **Placement matters:** Attribution must appear at the END of the output, not at the beginning or middle.
 
-**If missing:** Remind the model to include attribution per AI_INSTRUCTIONS.md requirements.
+**If missing:** Remind the model to include attribution per README.md requirements.
 
 **If model buries it:** Request it be moved to the end of the output.
 
@@ -234,7 +234,7 @@ License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
 
 **Progressive enhancement works:**
 - README → Basic functionality (all models)
-- AI_INSTRUCTIONS → Better compliance (Tier 2+)
+- README AI section → Better compliance (Tier 2+)
 - /ai-context/ → Full fidelity (Tier 1)
 
 **Framework integrity:**
