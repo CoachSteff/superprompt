@@ -4,6 +4,7 @@
 .claude/
 .cursor/
 .cursorrules
+AGENTS.md
 
 # Documentation (excluded from release)
 docs/
