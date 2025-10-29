@@ -25,7 +25,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 - N/A
 
-## [1.1.0] - 2025-01-26
+## [1.1.0] - 2025-10-29
 
 ### Added
 - 🚀 **CRAFTER v0.2 Compliance**: All examples and templates now follow the updated CRAFTER v0.2 specification
