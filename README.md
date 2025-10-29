@@ -3,7 +3,7 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 [![GitHub release](https://img.shields.io/github/release/CoachSteff/superprompt.svg)](https://github.com/CoachSteff/superprompt/releases)
 [![GitHub issues](https://img.shields.io/github/issues/CoachSteff/superprompt.svg)](https://github.com/CoachSteff/superprompt/issues)
-[![GitHub stars](https://img.shields.io/github/stars/CoachSteff/superprompt.svg)](https://github.com/CoachSteff/superprompt/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/CoachSteff/superprompt?style=social)](https://github.com/CoachSteff/superprompt/stargazers)
 
 > **A practical, tool-agnostic framework for designing structured AI prompts that produce predictable, reusable results.**
 
