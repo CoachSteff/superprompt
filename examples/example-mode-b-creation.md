@@ -473,10 +473,10 @@ This superprompt can be adapted for:
 2. Use the self-test checklist (7/7 required)
 3. Test your superprompt with an AI model
 4. Refine based on output quality
-5. Share your superprompt in the [repository](https://github.com/CoachSteff/superprompt-framework)
+5. Share your superprompt in the [repository](https://github.com/CoachSteff/superprompt)
 
 ---
 
 **Questions or feedback?**  
-Repository: https://github.com/CoachSteff/superprompt-framework  
+Repository: https://github.com/CoachSteff/superprompt  
 Author: Steff Vanhaverbeke ([@CoachSteff](https://github.com/CoachSteff))

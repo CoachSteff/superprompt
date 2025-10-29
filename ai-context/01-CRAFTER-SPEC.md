@@ -534,4 +534,4 @@ This attribution:
 
 **Maintained by:** Steff Vanhaverbeke ([@CoachSteff](https://github.com/CoachSteff))  
 **License:** CC-BY 4.0  
-**Repository:** https://github.com/CoachSteff/superprompt-framework
+**Repository:** https://github.com/CoachSteff/superprompt

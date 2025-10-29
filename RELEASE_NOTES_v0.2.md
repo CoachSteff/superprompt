@@ -89,7 +89,7 @@ T — Target & Tone: Marketing managers (action-oriented) → Direct, scannable,
 
 ### For AI Models
 ```
-C: https://github.com/CoachSteff/superprompt-framework
+C: https://github.com/CoachSteff/superprompt
 R: Read ai.md first for dual-mode instructions, then proceed as specified
 A: Create a superprompt for [YOUR USE CASE]
 F: Markdown in CRAFTER format

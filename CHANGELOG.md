@@ -43,7 +43,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - 🔒 **License**: MIT license for open source distribution
 
 ### Technical Details
-- **Repository**: [https://github.com/CoachSteff/superprompt-framework](https://github.com/CoachSteff/superprompt-framework)
+- **Repository**: [https://github.com/CoachSteff/superprompt](https://github.com/CoachSteff/superprompt)
 - **Author**: Steff VanHaverbeke ([@CoachSteff](https://github.com/CoachSteff))
 - **License**: MIT
 - **Node.js**: >=14.0.0
@@ -91,4 +91,4 @@ This release builds upon research into "The Convergence of Context Engineering a
 ### Links
 - [Keep a Changelog](https://keepachangelog.com/)
 - [Semantic Versioning](https://semver.org/)
-- [SuperPrompt Framework](https://github.com/CoachSteff/superprompt-framework)
+- [SuperPrompt Framework](https://github.com/CoachSteff/superprompt)

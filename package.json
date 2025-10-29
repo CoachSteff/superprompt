@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CoachSteff/superprompt-framework.git"
+    "url": "git+https://github.com/CoachSteff/superprompt.git"
   },
   "keywords": [
     "ai",
@@ -29,9 +29,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CoachSteff/superprompt-framework/issues"
+    "url": "https://github.com/CoachSteff/superprompt/issues"
   },
-  "homepage": "https://github.com/CoachSteff/superprompt-framework#readme",
+  "homepage": "https://github.com/CoachSteff/superprompt#readme",
   "engines": {
     "node": ">=14.0.0"
   },

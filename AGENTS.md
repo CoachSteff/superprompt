@@ -10,8 +10,8 @@
 
 ```bash
 # Clone the repository
-git clone https://github.com/CoachSteff/superprompt-framework.git
-cd superprompt-framework
+git clone https://github.com/CoachSteff/superprompt.git
+cd superprompt
 
 # Install dependencies (if Node.js tooling added in future)
 npm install
@@ -46,7 +46,7 @@ npm test
 ### Repository Structure
 
 ```
-superprompt-framework/
+superprompt/
 ├── .cursor/                    # Multi-agent AI system
 │   ├── agents/                 # 7 specialized AI agents
 │   │   ├── orchestrator/       # Central coordinator

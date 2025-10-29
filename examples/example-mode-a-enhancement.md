@@ -301,5 +301,5 @@ Use Mode A (Meta-Prompt Enhancement) when:
 ---
 
 **Questions or feedback?**  
-Repository: https://github.com/CoachSteff/superprompt-framework  
+Repository: https://github.com/CoachSteff/superprompt  
 Author: Steff Vanhaverbeke ([@CoachSteff](https://github.com/CoachSteff))
