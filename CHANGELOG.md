@@ -25,6 +25,18 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 - N/A
 
+## [1.2.1] - 2025-12-30
+
+### Fixed
+- 🐛 **Repository Configuration**: Removed `docs/` from `.gitignore` - documentation files are part of the public framework and should be tracked in git
+- 📖 **Documentation**: Added missing `craft-attribution.md` to repository with historical attribution for CRAFT framework variants
+
+### Technical Details
+- **Version**: 1.2.1 (Patch release - bug fixes only)
+- **Breaking Changes**: None
+- **Files Modified**: 2 files (.gitignore, docs/craft-attribution.md added)
+- **Impact**: New documentation files in `docs/` will now be tracked automatically without requiring `git add -f`
+
 ## [1.2.0] - 2025-12-30
 
 ### Added
