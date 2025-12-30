@@ -16,26 +16,10 @@ Use tags to filter and find what you need. Patterns are reusable reasoning struc
 
 ---
 
-### team-retrospective.md
-**Path:** `/examples/team-retrospective.md`  
-**Tags:** `team`, `retrospective`, `facilitation`, `agile`, `group-dynamics`  
-**Pattern:** Role Mesh (Multi-Expert)  
-**Description:** Design a 60-minute retrospective for a team after a difficult sprint. Surfaces underlying team dynamics (not just surface complaints) and creates one concrete team commitment.
-
----
-
-### opportunity-scan.md
-**Path:** `/examples/opportunity-scan.md`  
-**Tags:** `entrepreneurship`, `decision-making`, `risk-assessment`, `business-strategy`  
-**Pattern:** Counter-Case Probing  
-**Description:** Evaluate a business opportunity by surfacing failure scenarios and stress-testing assumptions. Provides a clear "pursue" or "pass" recommendation with reasoning.
-
----
-
 ### documentation-cleanup.md
 **Path:** `/examples/documentation-cleanup.md`  
 **Tags:** `documentation`, `markdown`, `technical-writing`, `code-quality`  
-**Pattern:** Rubric-First Grading (implicit)  
+**Pattern:** Rubric-First Grading  
 **Description:** Clean up markdown documentation files to make them readable, consistent, and navigable. Fixes formatting, structure, tone, and broken links.
 
 ---
@@ -45,6 +29,54 @@ Use tags to filter and find what you need. Patterns are reusable reasoning struc
 **Tags:** `research`, `synthesis`, `academic`, `knowledge-management`, `citations`  
 **Pattern:** Source-Anchored Synthesis  
 **Description:** Synthesize 5–10 sources on a research topic into a structured references.md file with key insights and proper citations. Every claim is traceable to a source.
+
+---
+
+### deep-research.md
+**Path:** `/examples/deep-research.md`  
+**Tags:** `research`, `analysis`, `competitive-intelligence`, `market-research`, `evidence-based`  
+**Pattern:** Source-Anchored Synthesis + Decomposition  
+**Description:** Conduct comprehensive research on complex topics by synthesizing multiple sources into actionable, evidence-based insights and recommendations. Includes source analysis, contradictions, gaps, and strategic recommendations.
+
+---
+
+### blog-writing.md
+**Path:** `/examples/blog-writing.md`  
+**Tags:** `content-creation`, `writing`, `marketing`, `blogging`, `engagement`  
+**Pattern:** Critique-Revise Loop  
+**Description:** Create engaging, well-structured blog posts for professional audiences. Includes hook development, structure design, critique against quality criteria, and revision for maximum impact.
+
+---
+
+### keyword-research.md
+**Path:** `/examples/keyword-research.md`  
+**Tags:** `seo`, `content-strategy`, `keyword-research`, `semantic-search`, `marketing`  
+**Pattern:** Decomposition  
+**Description:** Conduct semantic keyword research and identify content opportunities through AI-powered analysis of search intent and language patterns. Organize insights into strategic clusters with actionable content ideas.
+
+---
+
+### image-generation.md
+**Path:** `/examples/image-generation.md`  
+**Tags:** `image-generation`, `ai-art`, `visual-design`, `prompting`, `creative`  
+**Pattern:** Decomposition  
+**Description:** Create detailed, structured prompts for AI image generation tools (Midjourney, DALL-E, Stable Diffusion, Imagen). Break down visual requirements into subject, style, composition, atmosphere, and technical parameters.
+
+---
+
+### example-mode-a-enhancement.md
+**Path:** `/examples/example-mode-a-enhancement.md`  
+**Tags:** `meta`, `prompt-engineering`, `enhancement`, `crafter`, `framework`  
+**Pattern:** N/A (Meta-example)  
+**Description:** Demonstrates how to enhance existing prompts using CRAFTER v0.2 framework. Shows the enhancement process step-by-step with before/after examples.
+
+---
+
+### example-mode-b-creation.md
+**Path:** `/examples/example-mode-b-creation.md`  
+**Tags:** `meta`, `prompt-engineering`, `creation`, `crafter`, `framework`  
+**Pattern:** N/A (Meta-example)  
+**Description:** Demonstrates how to create new superprompts from scratch using CRAFTER v0.2 framework. Complete walkthrough of the creation process from requirements to final superprompt.
 
 ---
 

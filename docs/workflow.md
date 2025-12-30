@@ -199,6 +199,28 @@ The `PROMPTS.md` file serves as a searchable index of all prompts in the repo. E
 
 ---
 
+## Claude Skill Integration
+
+The repository ships with a Claude Agent Skill that scaffolds CRAFTER-compliant superprompts. Use it when working in Claude Code or the Claude Agent SDK.
+
+### Setup
+1. Copy the `.claude/skills/crafter-superprompt/` directory into your Claude-enabled project (files are already included at the repo root).
+2. Ensure the code execution tool is enabled for the workspace.
+3. **Claude Code:** Claude automatically discovers skills placed in `.claude/skills/`. No additional configuration is required once the folder is present.
+4. **Claude Agent SDK:** Add `"Skill"` to your `allowed_tools` array and keep the skill directory at `.claude/skills/` so the runtime can load it.
+
+### Usage Tips
+- Trigger the skill when you need to author or refine a superprompt using the CRAFTER structure.
+- Leverage progressive disclosure: the core instructions live in `SKILL.md`; the detailed checklist resides in `CRAFTER-CHECKLIST.md` and is only loaded when required.
+- After the skill produces a draft, run the checklist to confirm every component is satisfied and append the attribution footer.
+
+### Security & Maintenance
+- Install skills only from trusted sources; review bundled scripts before use.
+- Skills run without network access and cannot install new packages—plan your workflow accordingly.
+- If the CRAFTER specification changes (for example, a new component revision), update both `SKILL.md` and the checklist so the guidance stays aligned.
+
+---
+
 ## Safety Note: Refusal Rules
 
 Superprompts should include explicit refusal rules in the REASONING POLICY to prevent harmful outputs.

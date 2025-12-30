@@ -45,9 +45,11 @@ The SuperPrompt Framework uses **CRAFTER**—a 7-component structure for buildin
 ### 1. Browse Examples
 Start by exploring complete, copy-ready superprompts in the `/examples` folder:
 - [Coaching Reflection](examples/coaching-reflection.md) - Executive leadership reflection
-- [Team Retrospective](examples/team-retrospective.md) - Sprint retrospective facilitation  
-- [Opportunity Scan](examples/opportunity-scan.md) - Business decision analysis
+- [Blog Writing](examples/blog-writing.md) - Professional blog post creation
+- [Deep Research](examples/deep-research.md) - Comprehensive evidence-based research
 - [Documentation Cleanup](examples/documentation-cleanup.md) - Markdown formatting
+- [Image Generation](examples/image-generation.md) - AI image prompting
+- [Keyword Research](examples/keyword-research.md) - SEO and content strategy
 - [Research Synthesis](examples/research-synthesis.md) - Academic research synthesis
 
 ### 2. Copy a Template
@@ -76,13 +78,14 @@ If the output isn't quite right, adjust the weak components and re-run. Use the 
 ### Quick Examples by Use Case
 
 **For Content Creation:**
+- [Blog Writing](examples/blog-writing.md) - Create engaging professional blog posts
+- [Image Generation](examples/image-generation.md) - Structured prompts for AI image generation
 - [Documentation Cleanup](examples/documentation-cleanup.md) - Structure and format markdown content
 
-**For Strategic Thinking:**
-- [Opportunity Scan](examples/opportunity-scan.md) - Analyze business opportunities and risks
-
-**For Team Facilitation:**
-- [Team Retrospective](examples/team-retrospective.md) - Guide sprint retrospectives
+**For Research & Analysis:**
+- [Deep Research](examples/deep-research.md) - Comprehensive evidence-based research
+- [Keyword Research](examples/keyword-research.md) - SEO and content strategy research
+- [Research Synthesis](examples/research-synthesis.md) - Academic research synthesis
 
 **For Personal Development:**
 - [Coaching Reflection](examples/coaching-reflection.md) - Executive leadership reflection
@@ -158,7 +161,7 @@ This framework is licensed under **CC-BY 4.0** (Creative Commons Attribution 4.0
 
 **Required attribution format:**
 ```
-Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.1)
+Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.2)
 License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
 ```
 

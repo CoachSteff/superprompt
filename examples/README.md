@@ -28,15 +28,22 @@ Each example includes:
 
 ### Coaching & Leadership
 - **`coaching-reflection.md`** — Executive coaching reflection sessions
-- **`team-retrospective.md`** — Team leadership retrospectives and facilitation
 
-### Business & Strategy  
-- **`opportunity-scan.md`** — Entrepreneurial opportunity evaluation
+### Research & Analysis
 - **`research-synthesis.md`** — Research synthesis and knowledge integration
+- **`deep-research.md`** — Comprehensive research with evidence-based insights and recommendations
 
-### Content & Documentation
+### Content Creation & Marketing
+- **`blog-writing.md`** — Create engaging, well-structured blog posts for professional audiences
+- **`keyword-research.md`** — Semantic keyword research and content opportunity identification
+- **`image-generation.md`** — Structured prompts for AI image generation tools
+
+### Documentation & Technical Writing
 - **`documentation-cleanup.md`** — Markdown documentation cleanup and standardization
-- **`example-mode-b-creation.md`** — Creating new examples following CRAFTER v0.2
+
+### Meta Examples (Creating Superprompts)
+- **`example-mode-a-enhancement.md`** — Enhancing existing prompts with CRAFTER v0.2
+- **`example-mode-b-creation.md`** — Creating new superprompts following CRAFTER v0.2
 
 ## How to Use Examples
 
@@ -60,10 +67,12 @@ When generating superprompts:
 Each example demonstrates specific patterns from the SuperPrompt Framework:
 
 - **`coaching-reflection.md`** — Critique-Revise Loop pattern
-- **`team-retrospective.md`** — Role Mesh pattern  
-- **`opportunity-scan.md`** — Counter-Case Probing pattern
 - **`research-synthesis.md`** — Source-Anchored Synthesis pattern
+- **`deep-research.md`** — Source-Anchored Synthesis + Decomposition patterns
 - **`documentation-cleanup.md`** — Rubric-First Grading pattern
+- **`blog-writing.md`** — Critique-Revise Loop pattern
+- **`keyword-research.md`** — Decomposition pattern
+- **`image-generation.md`** — Decomposition pattern
 
 See `/docs/patterns.md` for detailed pattern descriptions.
 
@@ -93,5 +102,5 @@ All examples must:
 
 ---
 
-**Last updated:** 2025-10-26  
+**Last updated:** 2025-12-30  
 **Maintained by:** CoachSteff ([coachsteff.live](https://coachsteff.live))

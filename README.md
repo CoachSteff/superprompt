@@ -143,7 +143,7 @@ Present as:
 
 ---
 
-Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.1)
+Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.2)
 License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
 
 ---
@@ -481,13 +481,15 @@ Templates and examples:
 
 ### Complete Examples
 
-Five ready-to-use superprompts you can copy and adapt:
+Eight ready-to-use superprompts you can copy and adapt:
 
 | Example | Use Case | Pattern Used | Link |
 |---------|----------|--------------|------|
 | **Coaching Reflection** | Executive leadership reflection | Critique–Revise Loop | [examples/coaching-reflection.md](examples/coaching-reflection.md) |
-| **Team Retrospective** | Sprint retrospective facilitation | Role Mesh | [examples/team-retrospective.md](examples/team-retrospective.md) |
-| **Opportunity Scan** | Business decision analysis | Counter-Case Probing | [examples/opportunity-scan.md](examples/opportunity-scan.md) |
+| **Blog Writing** | Professional blog post creation | Critique–Revise Loop | [examples/blog-writing.md](examples/blog-writing.md) |
+| **Deep Research** | Comprehensive evidence-based research | Source-Anchored Synthesis + Decomposition | [examples/deep-research.md](examples/deep-research.md) |
+| **Image Generation** | AI image prompting for visual content | Decomposition | [examples/image-generation.md](examples/image-generation.md) |
+| **Keyword Research** | SEO and content strategy research | Decomposition | [examples/keyword-research.md](examples/keyword-research.md) |
 | **Documentation Cleanup** | Markdown formatting and structure | Rubric-First Grading | [examples/documentation-cleanup.md](examples/documentation-cleanup.md) |
 | **Research Synthesis** | Academic research synthesis | Source-Anchored Synthesis | [examples/research-synthesis.md](examples/research-synthesis.md) |
 
@@ -523,7 +525,7 @@ This framework is licensed under **CC-BY 4.0** (Creative Commons Attribution 4.0
 
 **Required attribution format:**
 ```
-Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.1)
+Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.2)
 License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
 ```
 

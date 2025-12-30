@@ -14,11 +14,32 @@ Each template includes:
 
 ## Available Templates
 
+### Generic Template
+**File:** `generic-template.md`  
+**Purpose:** Fully customizable superprompt template for any professional use case  
+**Best for:** Creating custom superprompts when no existing example fits your needs  
+**Adapt:** All components (Context, Role, Action, Format, Target & Tone, Examples, Refining)  
+**Special features:** Includes inline instructions for both human customization and AI generation
+
 ### Keyword Researcher
 **File:** `keyword-researcher.md`  
-**Purpose:** Semantic keyword research and content opportunity identification  
-**Best for:** Content strategists, coaches, entrepreneurs planning content  
-**Adapt:** Topic, output format, audience context
+**Purpose:** Semantic keyword research template with customization placeholders  
+**Best for:** Adapting keyword research workflow to specific industries or methodologies  
+**Adapt:** Topic focus, output format, semantic analysis depth  
+**Note:** For a ready-to-use keyword research superprompt, see `/examples/keyword-research.md`
+
+## Templates vs Examples
+
+| Aspect | Templates | Examples |
+|--------|-----------|----------|
+| **Purpose** | Customizable starting points | Ready-to-use superprompts |
+| **Completeness** | Adaptation-ready with placeholders and instructions | Complete and polished |
+| **Customization** | Requires customization | Use as-is |
+| **Use Case** | General patterns needing adaptation | Specific scenarios |
+| **Location** | `/templates/` | `/examples/` |
+| **When to Use** | When you want to build something custom | When you need a complete solution |
+
+**Note:** The `keyword-researcher.md` template was converted to a complete example and moved to `/examples/keyword-research.md`. Use that for ready-to-use keyword research, or use `generic-template.md` to create your own custom superprompt.
 
 ---
 
@@ -52,5 +73,5 @@ See `/CONTRIBUTING.md` for detailed guidelines.
 
 ---
 
-**Last updated:** 2025-10-22  
+**Last updated:** 2025-12-30  
 **Maintained by:** CoachSteff ([coachsteff.live](https://coachsteff.live))

@@ -25,44 +25,63 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Security
 - N/A
 
+## [1.2.0] - 2025-12-30
+
+### Added
+- 🚀 **New Examples for Professional Use Cases**:
+  - `blog-writing.md` - Professional blog post creation with critique-revise loop (3 complete examples: how-to guide, thought leadership, case study analysis)
+  - `deep-research.md` - Comprehensive evidence-based research analysis (technology evaluation example with source analysis, contradictions, gaps, and recommendations)
+  - `image-generation.md` - AI image generation prompting with structured breakdowns (3 visual scenarios: product photography, social media graphic, presentation illustration)
+  - `keyword-research.md` - SEO and content strategy keyword research (converted from template with 2 complete examples)
+- 🛠️ **Generic Template**: Added `templates/generic-template.md` - fully customizable superprompt template with inline instructions for both human and AI use
+- 📖 **Attribution Documentation**: Added `docs/craft-attribution.md` - historical attribution for CRAFT framework variants (Alexander F. Young, Sogeti Labs, Kaleb, Monica Poling, Geeky Gadgets)
+- 🎯 **Enhanced Repository**: Updated all examples to CRAFTER v0.2 compliance with professional, cross-domain focus
+
+### Changed
+- 📝 **Framework Evolution**: All examples now target any professional (not just coaches/thought leaders) - expanded to serve content creators, researchers, marketers, designers, and technical professionals
+- 🔄 **Simplified deep-research.md**: Reduced from 3 examples to 1 comprehensive technology evaluation example for better clarity and usability
+- 📚 **Documentation Reorganization**: 
+  - `examples/README.md` - New categorization (Coaching & Leadership, Research & Analysis, Content Creation & Marketing, Documentation & Technical Writing, Meta Examples)
+  - `PROMPTS.md` - Updated index with 7 core examples plus 2 meta examples
+  - `README.md` - Updated examples table to reflect current repository state (8 examples total)
+  - `GETTING_STARTED.md` - Updated all example lists and reorganized by use case
+  - `AGENTS.md` - Updated directory structure to show current files
+- 🏷️ **Version Updates**: All framework references updated from v0.1 to v0.2
+
+### Removed
+- ❌ **Streamlined Examples**: Deleted `podcast-generation.md`, `team-retrospective.md`, `opportunity-scan.md` to maintain focused, high-quality example set
+
+### Technical Details
+- **Version**: 1.2.0 (Minor release - new features, backward compatible)
+- **Breaking Changes**: None
+- **Examples Count**: 9 total (7 domain-specific examples + 2 meta examples for creating superprompts)
+- **Templates Count**: 2 (generic-template.md for any use case, keyword-researcher.md for SEO)
+- **Framework Compliance**: 100% CRAFTER v0.2 specification compliance
+- **Files Modified**: 18 files updated, 6 files created, 3 files removed
+- **Cross-Domain Applicability**: Examples now serve professionals across all industries and roles
+
+### Migration Guide
+No migration required. All changes are additive and maintain full backward compatibility. Users of v1.1.0 can:
+- Continue using existing examples (coaching-reflection, documentation-cleanup, research-synthesis remain unchanged in structure)
+- Adopt new examples for additional use cases (blog writing, research, image generation, keyword research)
+- Use the new generic template to create custom superprompts for any scenario
+- Reference craft-attribution.md for historical context on CRAFT framework variants
+
+### Notes for Contributors
+- All new examples follow professional, cross-domain focus (not coaching-specific)
+- Examples should be production-ready with 2-3 complete input/output demonstrations
+- Use CRAFTER v0.2 structure: Context → Role → Action → Format → Target & Tone → Examples → Refining
+- Attribution footer required: `Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.2)`
+
 ## [1.1.0] - 2025-10-29
 
 ### Added
-- 🚀 **CRAFTER v0.2 Compliance**: All examples and templates now follow the updated CRAFTER v0.2 specification
-- 📚 **Enhanced Examples**: Updated 6 examples with improved structure and content
-  - `coaching-reflection.md` - Enhanced with comprehensive context and action steps
-  - `team-retrospective.md` - Improved role definitions and format specifications
-  - `opportunity-scan.md` - Added detailed reasoning policy and self-check criteria
-  - `documentation-cleanup.md` - Enhanced with specific expertise areas and constraints
-  - `research-synthesis.md` - Improved with comprehensive action steps and examples
-  - `example-mode-b-creation.md` - Updated to CRAFTER v0.2 structure
-- 🛠️ **Template Improvements**: Updated `keyword-researcher.md` template with CRAFTER v0.2 structure
-- 📖 **Documentation**: Added comprehensive `examples/README.md` with usage guidance
-- 🎯 **Target & Tone Integration**: Converted T component from "Target Audience" to integrated "Target & Tone"
+- Initial framework enhancements and improvements
 
 ### Changed
-- 🔄 **CRAFTER Structure**: Updated all examples to use proper CRAFTER v0.2 headers
-  - Context sections now include common scenarios and constraints
-  - Role definitions enhanced with specific expertise areas
-  - Action steps made more comprehensive and actionable
-  - Format sections standardized with clear output structure
-  - Target & Tone sections provide integrated audience and tone guidance
-  - Examples sections include practical input/output demonstrations
-  - Refining sections added for iteration guidance
-- 📝 **Attribution Updates**: All examples now use "CRAFTER (SuperPrompt Framework v0.2)" attribution
-- 🏗️ **Template Structure**: Templates now follow CRAFTER v0.2 specification with placeholders
+- Framework refinements and documentation updates
 
-### Technical Details
-- **Version**: 1.1.0 (Minor release - new features, backward compatible)
-- **Breaking Changes**: None
-- **Compatibility**: Full backward compatibility maintained
-- **Files Updated**: 7 files modified, 1 new file added
-- **Framework Compliance**: 100% CRAFTER v0.2 specification compliance
-
-### Migration Guide
-No migration required. All changes are additive and maintain full backward compatibility. Existing users can continue using the framework as before, with access to enhanced examples and templates.
-
-## [1.0.0] - 2025-01-20
+## [1.0.0] - 2025-10-20
 
 ### Added
 - 🚀 **Initial Release**: SuperPrompt Framework v1.0.0
