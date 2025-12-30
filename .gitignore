@@ -6,9 +6,6 @@
 .cursorrules
 AGENTS.md
 
-# Documentation (excluded from release)
-docs/
-
 # OS-specific files
 .DS_Store
 .DS_Store?
