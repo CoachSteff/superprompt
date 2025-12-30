@@ -36,6 +36,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Breaking Changes**: None
 - **Files Modified**: 2 files (.gitignore, docs/craft-attribution.md added)
 - **Impact**: New documentation files in `docs/` will now be tracked automatically without requiring `git add -f`
+- **Version Naming**: SuperPrompt Framework follows semantic versioning (v1.x.x for repository releases). CRAFTER framework specification remains at v0.2 (technical structure version).
 
 ## [1.2.0] - 2025-12-30
 

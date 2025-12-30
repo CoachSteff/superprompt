@@ -1,6 +1,6 @@
 # AI Model Compatibility Guide
 
-**Framework:** CoachSteff's CRAFTER (SuperPrompt Framework v0.1)
+**Framework:** CoachSteff's CRAFTER (SuperPrompt Framework v0.2)
 
 ---
 
@@ -215,7 +215,7 @@ Use the exact definitions from the canonical specification.
 ```
 ---
 
-Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.1)
+Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.2)
 Pattern Used: [Pattern name if applicable]
 License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
 ```

@@ -26,7 +26,7 @@ This guide explains:
 
 ## 🤖 For AI Models: Complete Instructions
 
-**Framework:** CoachSteff's CRAFTER (SuperPrompt Framework v0.1)  
+**Framework:** CoachSteff's CRAFTER (SuperPrompt Framework v0.2)  
 **CRITICAL: Read this section completely before processing any user request.**
 
 ### 🔒 Framework Lock
@@ -262,7 +262,7 @@ Structure your output as:
 
 ---
 
-Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.1)
+Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.2)
 Pattern Used: [pattern name if applicable - see patterns.md]
 License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
 ```
@@ -443,7 +443,7 @@ MUST appear at the END of every superprompt:
 ```
 ---
 
-Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.1)
+Framework: CoachSteff's CRAFTER (SuperPrompt Framework v0.2)
 Pattern Used: [pattern name if applicable]
 License: CC-BY 4.0 — Attribution: Steff Vanhaverbeke (coachsteff.live)
 ```
@@ -473,7 +473,7 @@ Templates and examples:
 |----------|---------|------|
 | **Getting Started** | Human guide to understanding and using the framework | [GETTING_STARTED.md](GETTING_STARTED.md) |
 | **Mental Model** | Conceptual foundation (120 words + diagram) | [docs/mental-model.md](docs/mental-model.md) |
-| **Template** | Canonical SuperPrompt Template v0.1 (copy-pastable) | [docs/template.md](docs/template.md) |
+| **Template** | Canonical SuperPrompt Template v0.2 (copy-pastable) | [docs/template.md](docs/template.md) |
 | **Pattern Library** | 10 reusable reasoning patterns | [docs/patterns.md](docs/patterns.md) |
 | **Evaluation Rubric** | Score prompts on 6 axes (0–5 scale) | [docs/evaluation.md](docs/evaluation.md) |
 | **Workflow Guide** | How to store, version, and share prompts | [docs/workflow.md](docs/workflow.md) |
