@@ -5,6 +5,7 @@
 .cursor/
 .cursorrules
 AGENTS.md
+WARP.md
 
 # OS-specific files
 .DS_Store
